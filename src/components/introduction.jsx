@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Hello from "./Playground";
 
 export default class Introduction extends Component {
   render() {
@@ -10,89 +11,46 @@ export default class Introduction extends Component {
           data-section="home"
         >
           <div className="flexslider js-fullheight">
-            <ul className="slides">
-              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
-                <div className="overlay" />
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                      <div className="slider-text-inner js-fullheight">
-                        <div className="desc">
-                          <h1>
-                            Hi! <br />
-                            I'm Amit
-                          </h1>
-                          <p>
-                            <a
-                              className="btn btn-primary btn-learn"
-                              href="https://drive.google.com/file/d/1K7SqcqdwdounrWKzp__NF0iHKstoyruu/view?usp=sharing"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View CV
-                              <i className="icon-download4" />
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <ul>
+              <h1>
+                Hi! <br />
+                I'm Amit
+              </h1>
+              <p>
+                <a
+                  className="btn btn-primary btn-learn"
+                  href="https://drive.google.com/file/d/1K7SqcqdwdounrWKzp__NF0iHKstoyruu/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View CV
+                  <i className="icon-download4" />
+                </a>
+              </p>
+
+              <li>
+                <h1>
+                  I am learning to take nice
+                  <br /> PHOTOS !!
+                </h1>
+                <p>
+                  <a
+                    className="btn btn-primary btn-learn"
+                    href="https://www.instagram.com/amit_asish/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View my Photos on Instagram{" "}
+                    <i className="icon-briefcase3" />
+                  </a>
+                </p>
               </li>
-              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
-                <div className="overlay" />
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                      <div className="slider-text-inner">
-                        <div className="desc">
-                          <h1>
-                            I am learning to take nice
-                            <br /> PHOTOS !!
-                          </h1>
-                          <p>
-                            <a
-                              className="btn btn-primary btn-learn"
-                              href="https://www.instagram.com/amit_asish/?hl=en"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View my Photos on Instagram{" "}
-                              <i className="icon-briefcase3" />
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li style={{ backgroundImage: "url(images/img_bg.jpg)" }}>
-                <div className="overlay" />
-                <div className="container-fluid">
-                  <div className="row">
-                    <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                      <div className="slider-text-inner">
-                        <div className="desc">
-                          <h1>
-                            I often <br />
-                            Write ...{" "}
-                          </h1>
-                          <p>
-                            <a
-                              className="btn btn-primary btn-learn"
-                              href="https://dhruvbarochiya.me/"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              View Blog <i className="icon-book" />
-                            </a>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <li>
+                <Hello
+                  name="Hyundai A-League"
+                  message="Have fun playing"
+                  minutes={90}
+                ></Hello>
               </li>
             </ul>
           </div>
